@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ experiment.name }} - Experiment Detail{% endblock %}
+
+{% block content %}
+<div class="card">
+    <img src="{{ experiment.main_image.url }}" class="card-img-top" alt="{{ experiment.name }}">
+    <div class="card-body">
+        <h5 class="card-title">{{ experiment.name }}</h5>
+        <p class="card-text">{{ experiment.description }}</p>
+        <p class="card-text"><strong>Difficulty Level:</strong> {{ experiment.difficulty_level }}</p>
+        <p class="card-text"><strong>Subject:</strong> {{ experiment.get_subject_display }}</p>
+        <p class="card-text"><strong>Materials List:</strong></p>
+        <p class="card-text">{{ experiment.materials_list }}</p>
+        <p class="card-text"><strong>Safety Precautions:</strong></p>
+        <p class="card-text">{{ experiment.safety_precautions }}</p>
+        <p class="card-text"><strong>Instructions:</strong></p>
+        <p class="card-text">{{ experiment.instructions }}</p>
+        <p class="card-text"><strong>Author:</strong> {{ experiment.author }}</p>
+        <p class="card-text"><small class="text-muted">Created on: {{ experiment.created_on }}</small></p>
+    </div>
+</div>
+{% endblock %}
