@@ -1,6 +1,6 @@
 # Science Blog Django Project
 
-![Science Blog Logo](https://example.com/logo.svg)
+![Science Blog Logo](https://static.djangoproject.com/img/logos/django-logo-positive.svg)
 
 ---
 
