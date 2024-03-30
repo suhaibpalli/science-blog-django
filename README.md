@@ -1,6 +1,6 @@
 # Science Blog Django Project
 
-![Science Blog Logo](https://example.com/logo.png)
+![Science Blog Logo](https://example.com/logo.svg)
 
 ---
 
@@ -51,3 +51,6 @@ Did you know that the average human body contains enough carbon to provide graph
 ---
 
 ## Enjoy exploring the fascinating world of science with our Science Blog Django Project! 🌟
+
+[![Django Logo](https://static.djangoproject.com/img/logos/django-logo-positive.svg)](https://www.djangoproject.com/)
+[![Python Logo](https://www.python.org/static/community_logos/python-logo-generic.svg)](https://www.python.org/)
